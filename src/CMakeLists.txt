@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.9)
 project(twinteractive)
 
 get_filename_component(CMAKE_ROOT_DIR ${CMAKE_CURRENT_SOURCE_DIR} DIRECTORY)
+set(CMAKE_TEST_DIR ${CMAKE_ROOT_DIR}/test)
 
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_ROOT_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_ROOT_DIR}/lib)
