@@ -1,6 +1,6 @@
 project(tw_graphic)
 
-add_subdirectory(${CMAKE_TEST_DIR}/tw_graphic ${CMAKE_TEST_DIR}/bin)
+#add_subdirectory(${CMAKE_TEST_DIR}/tw_graphic ${CMAKE_TEST_DIR}/bin)
 
 set(HEADERS
         library.h

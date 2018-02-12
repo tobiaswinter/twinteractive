@@ -1,5 +1,3 @@
-project(tw_graphic)
+project(tw_graphic-test)
 
 enable_testing()
-find_package(GTest REQUIRED)
-include_directories(${GTEST_INCLUDE_DIR})
