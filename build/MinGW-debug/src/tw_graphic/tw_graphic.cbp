@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tw_graphic"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\tw_graphic\;CMake Files\test\;CMake Files\test\tw_graphic\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tw_graphic">
+				<Option output="D:/Repos/twinteractive/lib/libtw_graphicd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
+					<Add directory="C:/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic/Makefile&quot;  VERBOSE=1 tw_graphic"/>
+					<CompileFile command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tw_graphic/fast">
+				<Option output="D:/Repos/twinteractive/lib/libtw_graphicd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
+					<Add directory="C:/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic/Makefile&quot;  VERBOSE=1 tw_graphic/fast"/>
+					<CompileFile command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/src/tw_graphic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Repos/twinteractive/src/tw_graphic/library.cpp">
+			<Option target="tw_graphic"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/src/tw_graphic/library.h">
+			<Option target="tw_graphic"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/src/tw_graphic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\tw_graphic\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/src/tw_graphic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\tw_graphic\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/src/tw_graphic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\tw_graphic\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/test/tw_graphic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\tw_graphic\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/test/tw_graphic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\tw_graphic\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/test/tw_graphic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\tw_graphic\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

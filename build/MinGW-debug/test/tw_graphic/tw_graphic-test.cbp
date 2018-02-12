@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tw_graphic-test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\tw_graphic\;CMake Files\test\;CMake Files\test\tw_graphic\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Repos/twinteractive/build/MinGW-debug/test/tw_graphic"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/test/tw_graphic/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/test/tw_graphic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/test/tw_graphic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;D:/Repos/twinteractive/build/MinGW-debug/test/tw_graphic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Repos/twinteractive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/src/tw_graphic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\tw_graphic\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/src/tw_graphic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\tw_graphic\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/src/tw_graphic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\tw_graphic\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/test/tw_graphic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\tw_graphic\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/test/tw_graphic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\tw_graphic\"/>
+		</Unit>
+		<Unit filename="D:/Repos/twinteractive/test/tw_graphic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\tw_graphic\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
