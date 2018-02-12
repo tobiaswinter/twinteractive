@@ -2,5 +2,6 @@
 #define TWINTERACTIVE_LIBRARY_H
 
 void hello();
+int test7();
 
 #endif
